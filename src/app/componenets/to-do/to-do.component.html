@@ -1,0 +1,9 @@
+<h1>To Do List Here</h1>
+
+<!-- <ul *ngFor="let singleitem of todos">
+    <li>{{singleitem.title}}</li>
+</ul> -->
+
+<app-todo-item *ngFor="let singleitem of todos" [item]="singleitem">
+
+</app-todo-item>
